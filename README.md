@@ -25,17 +25,16 @@ em algo mais usável. Ou seja, transformar os dados em informação relevante.
 ## Aprendizado de Reforço - (Não iremos discutir nesse Repositório)
 
 ## Algoritmos:
-Regreção Linear
-K-Nearest Neighbors
-Naive Bayes
-Árvore de Decisão
-Máquina de Vetores de Suporte
-Redes Neurais
-
-PCA e AutoEncoder
-K-Means Clustering
-Hierarchical Clustering
-DBSCAN (Density-Based Spatial Clustering)
+- Regreção Linear
+- K-Nearest Neighbors
+- Naive Bayes
+- Árvore de Decisão
+- Máquina de Vetores de Suporte
+- Redes Neurais
+- PCA e AutoEncoder
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN (Density-Based Spatial Clustering)
 
 ## Referências:
 GRUS, Joel. Data Science do zero: Primeiras regras com Python
