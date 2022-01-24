@@ -5,11 +5,13 @@ Esse repositório foi criado para a disciplina de Tópicos da engenharia de comp
 ## Conceitos Importantes:
 
 ## Data Science
+
 Data Science é algo mais abrangente, multidisciplinar que utilizam técnicas de
 matemática, programação a fim de encontrar padrões em grandes banco de dados e gerar
 predições precisas além de boas decisões no campo estudado.
 
 ## Data Mining
+
 Data mining trata-se de retirar informação importante de determinado banco de dados.
 O principal objetivo da mineração de dados é retirar recursos de banco de dados e transforma-los
 em algo mais usável. Ou seja, transformar os dados em informação relevante.
@@ -17,7 +19,7 @@ em algo mais usável. Ou seja, transformar os dados em informação relevante.
 ## IA vs Machine Learning
 
 ## Aprendizado Supervisionado
- 
+
 ## Aprendizado Não supervisionados
 
 ## Aprendizado Semissupervisionado - Não iremos discutir nesse Repositório)
@@ -25,7 +27,8 @@ em algo mais usável. Ou seja, transformar os dados em informação relevante.
 ## Aprendizado de Reforço - (Não iremos discutir nesse Repositório)
 
 ## Algoritmos:
-- Regreção Linear
+
+- Regressão Linear
 - K-Nearest Neighbors
 - Naive Bayes
 - Árvore de Decisão
@@ -37,5 +40,6 @@ em algo mais usável. Ou seja, transformar os dados em informação relevante.
 - DBSCAN (Density-Based Spatial Clustering)
 
 ## Referências:
+
 GRUS, Joel. Data Science do zero: Primeiras regras com Python
 PROVOST, Foster; FAWCETT, Tom. Data Science For Business: What you need to know About Data Mining and Data-Analytic Thinking
