@@ -8,6 +8,13 @@ Em termos simples, o classificador Naive Bayes assume que a presença ou ausênc
 
 ## Classes de Problemas com Melhores Resultados:
 
+O modelo Naive Bayes é útil para problemas com grandes bases de dados e/ou aqueles que não tem muitas variáveis dependentes entre si.
+
+Além disso, os algoritmos Naive Bayes são utilizados em predições em tempo real e de multi classes. Suas simples implementações também os tornam úteis na classificação de textos, análise de sentimentos e filtro de spam.
+
+## Definição Teórica e Modelagem Matemática:
+
 ## Referências:
 
 - https://www.ic.unicamp.br/~rocha/teaching/2011s2/mc906/aulas/naive-bayes-classifier.pdf
+- https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
