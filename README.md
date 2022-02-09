@@ -17,12 +17,17 @@ O principal objetivo da mineração de dados é retirar recursos de banco de dad
 em algo mais usável. Ou seja, transformar os dados em informação relevante.
 
 ## IA vs Machine Learning
+Inteligência Artificial é um campo da computação o qual tenta imitar o comportamento dos seres humanos. Esta área é composta por diferentes tipos de algoritmos. Por exemplo em um jogo da velha, quando está jogando contra a máquina, existem algoritmos de busca para encontrar o melhor local de posicionar o síbolo. Machine Learning é um conjunto de algoritmos dentro da Inteligência Artificial, a qualf forma de chegar em alguma conclusão é feita com dados coletados. Assim, é como se o algoritmo melhorasse cada vez que errasse e tentasse fazer novamente.
+
+Os algoritmos de Machine Learning são divididos em 4 tipos:
 
 ## Aprendizado Supervisionado
+Esse tipo de algoritmo utiliza labels, marcações, respostas, para diferenciar os dados a serem classificados ou para tentar parametrizar uma função de regressão. Como foi citado, eles são divididos em classificação e regressão
 
 ## Aprendizado Não supervisionados
+Esse tipo de algoritmo não contém labels, ou seja, não tem uma resposta a ser encontrada. Ele é utilizado para encontrar padrões e na maioria das vezes dividir o conjunto de dados. Dessa maneira pode-se reduzir o número de variáveis ou separar os dados em conjuntos distintos.
 
-## Aprendizado Semissupervisionado - Não iremos discutir nesse Repositório)
+## Aprendizado Semissupervisionado - (Não iremos discutir nesse Repositório)
 
 ## Aprendizado de Reforço - (Não iremos discutir nesse Repositório)
 
@@ -34,6 +39,7 @@ em algo mais usável. Ou seja, transformar os dados em informação relevante.
 - Árvore de Decisão
 - Máquina de Vetores de Suporte
 - Redes Neurais
+
 - PCA e AutoEncoder
 - K-Means Clustering
 - Hierarchical Clustering
