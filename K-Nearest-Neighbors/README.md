@@ -2,8 +2,6 @@
 
 ## Conceito:
 
----
-
 O método k-NN de classificação tem como objetivo
 classificar uma amostra desconhecida de dados a partir das
 classificações conhecidas dos seus vizinhos. Considerando que
@@ -19,13 +17,9 @@ vizinho mais próximo. O número k de vizinhos considerados pode variar como mos
 
 ## Classes de Problemas com Melhores Resultados:
 
----
-
 É um método indicado para seleção e classificação de amostras desconhecidas, as quais são semelhantes aos dados de entrada.
 
 ## Definição Teórica e Modelagem Matemática:
-
----
 
 O algoritmo k-NN pode ser definido com os seguintes passos:
 
@@ -61,8 +55,6 @@ A fórmula da distância mais bem utilizada é a Euclidiana:
 
 ## Vantagens:
 
----
-
 - Fácil compreensão e implementação simples
 - Pode ser utilizado tanto para problemas de classificação e regressão
 - Ideal para dados não lineares
@@ -71,8 +63,6 @@ A fórmula da distância mais bem utilizada é a Euclidiana:
 
 ## Desvantagens (limitações):
 
----
-
 - Alto custo computacional, já que armazena toda a base de treinamento
 - Alto armazenamento na memória
 - A predição é reduzida se o valor de N for alto
@@ -80,13 +70,12 @@ A fórmula da distância mais bem utilizada é a Euclidiana:
 
 ## Exemplo de uma Aplicação em Python:
 
----
+Presente no arquivo kNN.ipynb
 
 ## Referências:
-
----
 
 - https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote02_kNN.html
 - https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning
 - https://learn.g2.com/k-nearest-neighbor
 - https://medium.com/brasil-ai/knn-k-nearest-neighbors-1-e140c82e9c4e
+- https://www.youtube.com/watch?v=CQveSaMyEwM&t
