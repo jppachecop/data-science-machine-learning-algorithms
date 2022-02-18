@@ -10,6 +10,35 @@ Dado que o DBSCAN é um algoritmo de clusterização baseado em densidade, ele �
 
 ## Definição Teórica e Modelagem Matemática:
 
+A ideia chave do método DBSCAN é que, para cada ponto de um cluster, a vizinhança para um dado raio contém, no mínimo, certo número de pontos, ou seja, a densidade na vizinhança tem que exceder um limiar.
+
+Há dois parâmetros chave no DBSCAN:
+
+- eps: a distância que especifica os vizinhos. Dois pontos são vizinhos se a distância entre eles são menor ou igual a eps.
+- minPts: número mínimo de pontos para definir um cluster.
+
+Baseado nesses dois parâmetros, os pontos são classificados como ponto central, ponto de borda ou outlier:
+
+- Ponto central: Um ponto é um ponto central se há ao menos um número minPts aos redores dele com um raio eps;
+
+- Ponto de borda: Um ponto é um ponto de borda se ele é alcançável por um ponto central e que haja um número minPts ao seu redor;
+
+- Outlier: Um ponto é um outlier se não for um ponto central e não puder ser alcançado por ponto central algum.
+
+O algoritmo do DBSCAN funciona da seguinte forma:
+
+- minPts e eps estão determinados
+
+- Um ponto inicial é selecionado aleatoriamente e a área de sua vizinhança é determinada utilizando um raio de valor eps. Se há ao menos um número minPts de pontos na vizinhança, o ponto é marcado como um ponto central e a formação do cluster se inicia. Se não, o ponto é categorizado como discrepante. Uma vez que a formação do cluster se inicia, todos os pontos dentro da vizinhança do ponto inicial se torna parte do cluster. Se esses novos pontos são também pontos centrais, os pontos que estão em suas vizinhanças também são adicionados no cluster.
+
+- O próximo passo é aleatoriamente escolher os outros pontos que não passaram pelos passos anteriores.
+
+- O algoritmo é finalizado quando todos os pontos forem testados
+
+Aplicando esses passos, o DBSCAN pode encontrar regiões de alta densidade e separá-las de regiões de baixa densidade.
+
+Um cluster inclui pontos centrais que são vizinhos e pontos de borda desses pontos centrais. A condição necessária para formar um cluster é ter ao menos um ponto central. Porém, pode ocorrer de existir um cluster com apenas um ponto central e seus pontos de borda.
+
 ## Vantagens:
 
 - Excelente na separação de clusters de alta densidade dos clusters de baixa densidade dado um conjunto de dados;
@@ -30,3 +59,4 @@ Presente no arquivo dbscan.ipynb
 - https://www.maxwell.vrac.puc-rio.br/24787/24787_6.PDF
 - https://elutins.medium.com/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 - https://sites.google.com/site/dataclusteringalgorithms/density-based-clustering-algorithm
+- https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556
