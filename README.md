@@ -30,10 +30,6 @@ Esse tipo de algoritmo utiliza labels, marcações, respostas, para diferenciar 
 
 Esse tipo de algoritmo não contém labels, ou seja, não tem uma resposta a ser encontrada. Ele é utilizado para encontrar padrões e na maioria das vezes dividir o conjunto de dados. Dessa maneira pode-se reduzir o número de variáveis ou separar os dados em conjuntos distintos.
 
-## Aprendizado Semissupervisionado - (Não iremos discutir nesse Repositório)
-
-## Aprendizado de Reforço - (Não iremos discutir nesse Repositório)
-
 ## Algoritmos:
 
 - Regressão Linear
@@ -52,3 +48,7 @@ Esse tipo de algoritmo não contém labels, ou seja, não tem uma resposta a ser
 
 GRUS, Joel. Data Science do zero: Primeiras regras com Python
 PROVOST, Foster; FAWCETT, Tom. Data Science For Business: What you need to know About Data Mining and Data-Analytic Thinking
+
+## Autores:
+- João Paulo Pacheco Potenciano
+- Matheus Augusto Monteiro de Godoy
